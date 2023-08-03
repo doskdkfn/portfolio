@@ -14,3 +14,34 @@ html,body,div,video,ul,li {
     padding: 0; 
     list-style: none;
 }
+
+/*********************** header 헤더영역 ************************/
+
+#side-box {
+    background: #000000cc;
+    width: 450px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.side-menu-box {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.side-menu {
+    margin-top: 50px;
+}
+
+.side-menu > li {
+    padding: 30px;
+}
+
+.side-menu > li:hover {
+    color: darkgoldenrod;
+}
