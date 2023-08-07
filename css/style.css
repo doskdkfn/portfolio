@@ -23,16 +23,54 @@ html,body,div,video,ul,li {
     right: 0;
 }
 
-#logo > img {
+/* #logo > img {
     width: 265px;
-    animation: rotate_image 10s linear infinite;
+    animation: rotate_image 10s linear infinite; 시계방향이나 반 시계방향으로 회전
+    animation: rotate-axis 10s linear infinite;  축을 중심으로 회전
+} */
+
+.saturn {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-@keyframes rotate_image {
+.saturn > img {
+  /* width: 265px; */
+  width: 265px;
+}
+
+.saturn-ring > img {
+  width: 265px;
+  animation: rotate-axis 10s linear infinite;
+}
+
+.saturn-ring > img:nth-child(1) {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.saturn-ring > img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+@keyframes rotate-axis {
+  from {
+      transform: rotateY(0deg);
+  }
+  to {
+      transform: rotateY(360deg);
+  }
+}
+
+/* @keyframes rotate_image {
     100% {
         transform: rotate(360deg);
     }
-}
+} */
 
 /*********************** header 헤더영역 ************************/
 
