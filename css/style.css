@@ -31,46 +31,41 @@ html,body,div,video,ul,li {
 
 .saturn {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 95px;
+  right: 56px;
 }
 
 .saturn > img {
-  /* width: 265px; */
-  width: 265px;
+  width: 220px;
 }
 
-.saturn-ring > img {
-  width: 265px;
-  animation: rotate-axis 10s linear infinite;
-}
-
-.saturn-ring > img:nth-child(1) {
+.saturn-text {
   position: absolute;
-  right: 0;
-  z-index: -1;
+  top: 15px;
+  right: -70px;
 }
 
-.saturn-ring > img:nth-child(2) {
-  position: absolute;
-  right: 0;
-  z-index: 2;
+.saturn-text > img {
+  /* width: 430px; */
+  width: 490px;
+  animation: rotate_image 20s linear infinite;
 }
 
-@keyframes rotate-axis {
-  from {
-      transform: rotateY(0deg);
-  }
-  to {
-      transform: rotateY(360deg);
+/* 시계방향이나 반 시계방향으로 회전하는 애니매이션 */
+@keyframes rotate_image {               
+  100% {                                
+      transform: rotate(360deg);
   }
 }
 
-/* @keyframes rotate_image {
-    100% {
-        transform: rotate(360deg);
-    }
-} */
+/* @keyframes rotate-axis {             ㅡ
+  from {                                 ㅣ
+      transform: rotateY(0deg);          ㅣ
+  }                                      ㅣ ----- 축을 중심으로 회전하는 애니매이션
+  to {                                   ㅣ
+      transform: rotateY(360deg);        ㅣ
+  }                                      ㅣ
+} */                                    ㅡ
 
 /*********************** header 헤더영역 ************************/
 
