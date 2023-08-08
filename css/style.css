@@ -45,13 +45,13 @@ html,body,div,video,ul,li {
 
 .saturn-text {
   position: absolute;
-  top:25px;
-  right: 25px;
+  top: 20px;
+  right: 20px;
 }
 
 .saturn-text > img {
-  /* width: 310px; */
-  width: 260px;
+  /* width: 260px; */
+  width: 275px;
   animation: rotate_image 20s linear infinite;
 }
 
