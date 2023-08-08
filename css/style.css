@@ -35,23 +35,23 @@ html,body,div,video,ul,li {
 
 .saturn {
   position: absolute;
-  top: 95px;
-  right: 56px;
+  top: 100px;
+  right: 70px;
 }
 
 .saturn > img {
-  width: 220px;
+  width: 175px;
 }
 
 .saturn-text {
   position: absolute;
-  top: 15px;
-  right: 10px;
+  top:25px;
+  right: 25px;
 }
 
 .saturn-text > img {
-  /* width: 430px; */
-  width: 310px;
+  /* width: 310px; */
+  width: 260px;
   animation: rotate_image 20s linear infinite;
 }
 
@@ -78,7 +78,7 @@ html,body,div,video,ul,li {
   width: 450px;
   height: 100%;
   position: fixed;
-  right: -20%;
+  right: -100%;
   top: 0;
 }
 

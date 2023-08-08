@@ -6,7 +6,7 @@ $(document).ready(function () {
     });
 
     $(".close-btn").click(function () {
-        $("#side-box").animate({right: "-20%"}, 500);
+        $("#side-box").animate({right: "-100%"}, 500);
         // $("#side-box").fadeOut(600);
         $("#logo").fadeIn(600);
     });
