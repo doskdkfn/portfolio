@@ -13,6 +13,7 @@ html,body,div,video,ul,li {
   margin: 0;
   padding: 0; 
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -27,6 +28,13 @@ section {
 }
 
 /*********************** header 로고영역 ************************/
+
+#logo-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
 
 #logo {
   position: absolute;

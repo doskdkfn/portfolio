@@ -1,4 +1,5 @@
 $(document).ready(function () {
+           // 사이드 메뉴바 
     $("#logo").click(function () {
         $("#side-box").animate({right: "0"}, 500);
         // $("#side-box").fadeIn(600);
@@ -10,4 +11,10 @@ $(document).ready(function () {
         // $("#side-box").fadeOut(600);
         $("#logo").fadeIn(600);
     });
+
 });;
+
+// $('html, body').animate({
+//     scrollTop: target.offset().top
+//   }, 1000, function() {
+// });
