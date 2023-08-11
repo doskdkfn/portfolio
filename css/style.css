@@ -252,6 +252,90 @@ section {
 
 /************** section 1 (about-right) ***************/
 
+.right-about {
+  width: 1000px;
+}
+
+.right-img-t {
+  position: relative;
+  right: -10%;
+  top: 25%;
+}
+
+/******* section 1 top (certifiacte) *******/
+
+/* .certificate {
+  display: flex;
+} */
+
+.cert {
+  display: flex;
+}
+
+.cert > li {
+  width: 170px;
+  height: 170px;
+  background: #fff;
+  box-shadow: #1b2735;
+}
+
+/* .certificate > li {
+  width: 170px;
+  height: 170px;
+  background: #fff;
+  box-shadow: #1b2735;
+} */
+
+/******* section 1 bottom (career) *******/
+
+/* .career {
+  display: flex;
+} */
+
+.career1-1 {
+  display: flex;
+}
+
+.career1-1 > li {
+  width: 170px;
+  height: 170px;
+  background: #fff;
+  box-shadow: #1b2735;
+}
+
+.career1-2 {
+  display: flex;
+}
+
+.career1-2 > li {
+  width: 170px;
+  height: 170px;
+  background: #fff;
+  box-shadow: #1b2735;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
