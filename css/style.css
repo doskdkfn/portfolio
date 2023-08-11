@@ -14,11 +14,21 @@ html,body,div,video,ul,li {
   padding: 0; 
   list-style: none;
   scroll-behavior: smooth;
+  font-family: "윤고딕340";
+}
+
+@font-face {
+  src: url("../font/윤고딕340.ttf");
+  font-family: "윤고딕340";
 }
 
 header {
   overflow-x: hidden;
   overflow-y: auto;
+  position: relative;
+}
+
+#main {
   position: relative;
 }
 
@@ -321,7 +331,7 @@ section {
 
 .career1-1 > li > img {
   width: 100px;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .career1-1 > li:hover {
@@ -345,7 +355,7 @@ section {
 
 .career1-2 > li > img {
   width: 100px;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .career1-2 > li:hover {
