@@ -280,6 +280,13 @@ section {
   box-shadow: #1b2735;
   margin: 10px 30px 0 0;
   border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.cert > li > img {
+  width: 100px;
+  margin-top: 15px;
 }
 
 .cert > li:hover {
@@ -308,6 +315,13 @@ section {
   box-shadow: #1b2735;
   margin: 10px 100px 0 0;
   border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.career1-1 > li > img {
+  width: 100px;
+  margin-top: 15px;
 }
 
 .career1-1 > li:hover {
@@ -325,6 +339,13 @@ section {
   box-shadow: #1b2735;
   margin: 50px 100px 0 0;
   border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.career1-2 > li > img {
+  width: 100px;
+  margin-top: 15px;
 }
 
 .career1-2 > li:hover {
