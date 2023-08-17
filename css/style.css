@@ -382,7 +382,47 @@ section {
   transform: scale(1.1);
 }
 
+/*********************** section 2 (skills) ************************/
 
+#skills {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+#graph-box {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.graph {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background:lightgray;
+  display:inline-block;
+}
+
+.graph:after {
+  content:'';
+  background: #fff;  /* 백그라운드 컬러로 중앙가리기 */
+  position: absolute;
+  top:50%; left:50%;
+  width:200px; height:200px; /* 도넛의 너비 설정 */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skill-bar {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  background: conic-gradient(#9986dd 50deg, #fbb871 50deg); /* 차트 설정 */
+}
 
 
 
