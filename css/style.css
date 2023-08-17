@@ -392,12 +392,12 @@ section {
   position: relative;
 }
 
-#graph-box {
+#chart-box {
   width: 1800px;
   margin: 0 auto;
 }
 
-.graph {
+.chart {
   position: relative;
   width: 300px;
   height: 300px;
@@ -407,7 +407,7 @@ section {
   display:inline-block;
 }
 
-.graph:after {
+.chart:after {
   content:'';
   background: #fff;  /* 백그라운드 컬러로 중앙가리기 */
   position: absolute;
@@ -417,7 +417,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.skill-bar {
+.chart-bar {
   width: inherit;
   height: inherit;
   border-radius: 50%;
