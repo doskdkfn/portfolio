@@ -400,17 +400,13 @@ section {
 
 /******* skill (donut-graph-design) *******/
 
-.donut {
+.donut-design {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
 }
 
-/* .donut > div {
-  margin: 10px 10px;
-} */
-
-.donut-bar-design {
+.donut {
   width: calc(15% - 16px);
   padding-bottom: calc(15% - 16px);
   /* margin: 0 auto; */
@@ -421,7 +417,7 @@ section {
   background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
 }
 
-.donut-bar-design::before {
+.donut::before {
   color: #fff;
   width: 70%;
   padding: calc(35% - .64vw) 0;

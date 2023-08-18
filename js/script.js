@@ -19,13 +19,13 @@ const donut = document.querySelector(".donut")
 donut.dataset.percent = totalMinwon
 donut.style.background = `conic-gradient(#3F8BC9 0% ${totalMinwon}%, #F2F2F2 ${totalMinwon}% 100%)`
 
-// let t4 = 0
-// const donutAnimation = setInterval(() => {
-//   donut.dataset.percent = t4
-//   donut.style.background = `conic-gradient(#4F98FF 0 ${t4}%, #DEDEDE ${t4}% 100% )`
+let t4 = 0
+const donutAnimation = setInterval(() => {
+  donut.dataset.percent = t4
+  donut.style.background = `conic-gradient(#4F98FF 0 ${t4}%, #DEDEDE ${t4}% 100% )`
 
-//   t4++ >= totalMinwon && clearInterval(donutAnimation)
-// }, 10)
+  t4++ >= totalMinwon && clearInterval(donutAnimation)
+}, 10)
 
 let t5 = 0
 const donutAnimation2 = setInterval(() => {
