@@ -427,6 +427,11 @@ section {
   text-align: center;
   transition: background .3s ease-in-out;
   background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+  content: attr(data-content)'%';
+}
+
+.donut[data-content='72'] {
+  color: #fff;
 }
 
 .donut::before {
