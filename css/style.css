@@ -17,6 +17,17 @@ html,body,div,video,ul,li {
   font-family: "윤고딕340";
 }
 
+html, body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
 @font-face {
   src: url("../font/윤고딕340.ttf");
   font-family: "윤고딕340";
@@ -35,6 +46,7 @@ header {
 section {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /*********************** header 로고영역 ************************/
