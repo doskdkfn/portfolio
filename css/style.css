@@ -392,37 +392,60 @@ section {
   position: relative;
 }
 
-#chart-box {
+#donut-box {
   width: 1800px;
   margin: 0 auto;
-}
-
-.chart {
   position: relative;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  transition: 0.3s;
-  background:lightgray;
-  display:inline-block;
 }
 
-.chart:after {
-  content:'';
-  background: #fff;  /* 백그라운드 컬러로 중앙가리기 */
+/******* skill (donut-graph-design) *******/
+
+.donut {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+/* .donut > div {
+  margin: 10px 10px;
+} */
+
+.donut-bar-design {
+  width: calc(15% - 16px);
+  padding-bottom: calc(15% - 16px);
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  transition: background .3s ease-in-out;
+  background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+}
+
+.donut-bar-design::before {
+  color: #fff;
+  width: 70%;
+  padding: calc(35% - .64vw) 0;
+  background: #264057;
+  border-radius: 50%;
   position: absolute;
-  top:50%; left:50%;
-  width:200px; height:200px; /* 도넛의 너비 설정 */
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
+  left: 15%;
+  top: 15%;
+  display: block;
+  content: attr(data-percent)'%';
+  transform: skew(-0.03deg);
+  margin: auto;
+  font-size: 1.1vw;
+  font-size: 2vw;
+  padding: calc(35% - 1.3vw) 0;
 }
 
-.chart-bar {
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  background: conic-gradient(#9986dd 50deg, #fbb871 50deg); /* 차트 설정 */
-}
+/******* skill (donut-graph-web) *******/
+
+/******* skill (donut-graph-video) *******/
+
+
+
+
 
 
 
