@@ -465,6 +465,22 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
+  background: repeating-linear-gradient(45deg, #cae7f3, #c4d4e8);
+}
+
+#web-box {
+  width: 1800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#web-box > h3 { 
+  font-size: 35px;
+  padding-left: 10px;
+  /* padding-left: 175px; */
+  padding-top: 230px;
+  text-transform: uppercase;
+  margin-bottom: 155px;
 }
 
 
