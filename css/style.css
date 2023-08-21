@@ -508,6 +508,30 @@ section {
   margin-bottom: 155px;
 }
 
+/******* section 3 web-flex - left & right *******/
+
+.web-flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.web-left {
+  width: 450px;
+  height: 400px;
+  background: #fff;
+}
+
+.web-right {
+  width: 1350px;
+  height: 600px;
+  /* background: #333; */
+}
+
+.web-right > a > img {
+  width: 1350px;
+  height: 600px;
+  background: #333;
+}
 
 
 
