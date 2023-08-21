@@ -402,6 +402,7 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
+  background: repeating-linear-gradient(45deg, #cae7f3, #c4d4e8);
 }
 
 #donut-box {
@@ -419,8 +420,8 @@ section {
 }
 
 .donut {
-  width: calc(15% - 16px);
-  padding-bottom: calc(15% - 16px);
+  width: calc(13% - 16px);
+  padding-bottom: calc(13% - 16px);
   /* margin: 0 auto; */
   border-radius: 50%;
   position: relative;
@@ -450,6 +451,30 @@ section {
   font-size: 1.1vw;
   font-size: 2vw;
   padding: calc(35% - 1.3vw) 0;
+}
+
+.ps {
+  position: absolute;
+  left: 250px;
+  top: 235px;
+}
+
+.ai {
+  position: absolute;
+  left: 655px;
+  top: 235px;
+}
+
+.fi {
+  position: absolute;
+  top: 235px;
+  right: 665px;
+}
+
+.xd {
+  position: absolute;
+  top: 235px;
+  right: 255px;
 }
 
 /******* skill (donut-graph-web) *******/
