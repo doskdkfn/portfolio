@@ -430,9 +430,9 @@ section {
   content: attr(data-content)'%';
 }
 
-.donut[data-content='72'] {
+/* .donut[data-content='72'] {
   color: #fff;
-}
+} */
 
 .donut::before {
   color: #fff;
@@ -457,7 +457,15 @@ section {
 /******* skill (donut-graph-video) *******/
 
 
+/*********************** section 3 (web) ************************/
 
+#web {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
 
 
 
