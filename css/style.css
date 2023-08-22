@@ -447,14 +447,16 @@ section {
 /******* skill (donut 1-1) *******/
 
 .donut1-1 {
-  width: calc(13% - 30px);
-  padding-bottom: calc(12% - 16px);
+  width: 10%;
+  height: 7vw;
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
   /* margin: 0 auto; */
   border-radius: 50%;
   position: relative;
   text-align: center;
   transition: background .3s ease-in-out;
-  background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+  background: conic-gradient(#3F8BC9 0% 90%, #F2F2F2 90% 100%);
   content: attr(data-content)'%';
 }
 
@@ -465,25 +467,23 @@ section {
 .donut1-1::before {
   color: #fff;
   width: 65%;
-  padding: calc(35% - 0.64vw) 0;
   background: #264057;
   border-radius: 50%;
   position: absolute;
-  left: 17.5%;
-  top: 18%;
+  left: 16.5%;
+  top: 17.5%;
   display: block;
   content: attr(data-percent)'%';
   transform: skew(-0.03deg);
   margin: auto;
-  font-size: 1.1vw;
   font-size: 1.3vw;
-  padding: calc(37% - 1.3vw) 0;
+  padding: calc(38% - 1.3vw) 0;
 }
 
 .ps {
   position: absolute;
-  left: 50px;
-  top: 220px;
+  left: 32px;
+  top: 200px;
   font-size: 20px;
   font-weight: 600;
   color: #555353;
@@ -492,39 +492,39 @@ section {
 /******* skill (donut 1-2) *******/
 
 .donut1-2 {
-  width: calc(13% - 30px);
-  padding-bottom: calc(12% - 16px);
+  width: 10%;
+  height: 7vw;
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
   /* margin: 0 auto; */
   border-radius: 50%;
   position: relative;
   text-align: center;
   transition: background .3s ease-in-out;
-  background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+  background: conic-gradient(#3F8BC9 0% 85%, #F2F2F2 85% 100%);
   content: attr(data-content)'%';
 }
 
 .donut1-2::before {
   color: #fff;
   width: 65%;
-  padding: calc(35% - 0.64vw) 0;
   background: #264057;
   border-radius: 50%;
   position: absolute;
-  left: 17.5%;
-  top: 18%;
+  left: 16.5%;
+  top: 17.5%;
   display: block;
   content: attr(data-percent)'%';
   transform: skew(-0.03deg);
   margin: auto;
-  font-size: 1.1vw;
   font-size: 1.3vw;
-  padding: calc(37% - 1.3vw) 0;
+  padding: calc(38% - 1.3vw) 0;
 }
 
 .ai {
   position: absolute;
-  left: 53px;
-  top: 220px;
+  left: 40px;
+  top: 200px;
   font-size: 20px;
   font-weight: 600;
   color: #555353;
@@ -533,39 +533,39 @@ section {
 /******* skill (donut 1-3) *******/
 
 .donut1-3 {
-  width: calc(13% - 30px);
-  padding-bottom: calc(12% - 16px);
+  width: 10%;
+  height: 7vw;
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
   /* margin: 0 auto; */
   border-radius: 50%;
   position: relative;
   text-align: center;
   transition: background .3s ease-in-out;
-  background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+  background: conic-gradient(#3F8BC9 0% 85%, #F2F2F2 85% 100%);
   content: attr(data-content)'%';
 }
 
 .donut1-3::before {
   color: #fff;
   width: 65%;
-  padding: calc(35% - 0.64vw) 0;
   background: #264057;
   border-radius: 50%;
   position: absolute;
-  left: 17.5%;
-  top: 18%;
+  left: 16.5%;
+  top: 17.5%;
   display: block;
   content: attr(data-percent)'%';
   transform: skew(-0.03deg);
   margin: auto;
-  font-size: 1.1vw;
   font-size: 1.3vw;
-  padding: calc(37% - 1.3vw) 0;
+  padding: calc(38% - 1.3vw) 0;
 }
 
 .fi {
   position: absolute;
-  right: 75px;
-  top: 220px;
+  right: 65px;
+  top: 200px;
   font-size: 20px;
   font-weight: 600;
   color: #555353;
@@ -574,39 +574,39 @@ section {
 /******* skill (donut 1-4) *******/
 
 .donut1-4 {
-  width: calc(13% - 30px);
-  padding-bottom: calc(12% - 16px);
+  width: 10%;
+  height: 7vw;
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
   /* margin: 0 auto; */
   border-radius: 50%;
   position: relative;
   text-align: center;
   transition: background .3s ease-in-out;
-  background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+  background: conic-gradient(#3F8BC9 0% 85%, #F2F2F2 85% 100%);
   content: attr(data-content)'%';
 }
 
 .donut1-4::before {
   color: #fff;
   width: 65%;
-  padding: calc(35% - 0.64vw) 0;
   background: #264057;
   border-radius: 50%;
   position: absolute;
-  left: 17.5%;
-  top: 18%;
+  left: 16.5%;
+  top: 17.5%;
   display: block;
   content: attr(data-percent)'%';
   transform: skew(-0.03deg);
   margin: auto;
-  font-size: 1.1vw;
   font-size: 1.3vw;
-  padding: calc(37% - 1.3vw) 0;
+  padding: calc(38% - 1.3vw) 0;
 }
 
 .xd {
   position: absolute;
-  top: 220px;
-  right: 90px;
+  top: 200px;
+  right: 80px;
   font-size: 20px;
   font-weight: 600;
   color: #555353;
