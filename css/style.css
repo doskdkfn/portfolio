@@ -704,9 +704,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.ps {
+.html {
   position: absolute;
-  left: 32px;
+  left: 60px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -750,9 +750,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.ai {
+.css {
   position: absolute;
-  left: 40px;
+  left: 65px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -796,9 +796,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.fi {
+.scss {
   position: absolute;
-  right: 65px;
+  right: 75px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -842,16 +842,109 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.xd {
+.js {
   position: absolute;
   top: 200px;
-  right: 80px;
+  right: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555353;
+  width: 150px;
+}
+
+.donut2-4:hover {
+  transform: scale(1.1);
+}
+
+/******* skill (donut 2-5) *******/
+
+.donut2-5 {
+  width: 10%;
+  padding-bottom: 9.8%;
+  /* height: 7vw; */
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  transition: background .3s ease-in-out;
+  background: conic-gradient(#3F8BC9 0% 70%, #F2F2F2 70% 100%);
+  content: attr(data-content)'%';
+}
+
+.donut2-5::before {
+  color: #fff;
+  width: 65%;
+  background: #264057;
+  border-radius: 50%;
+  position: absolute;
+  left: 16.5%;
+  top: 17.5%;
+  display: block;
+  content: attr(data-percent)'%';
+  transform: skew(-0.03deg);
+  margin: auto;
+  font-size: 1.3vw;
+  padding: calc(38% - 1.3vw) 0;
+}
+
+.filezila {
+  position: absolute;
+  top: 200px;
+  right: 60px;
   font-size: 20px;
   font-weight: 600;
   color: #555353;
 }
 
-.donut2-4:hover {
+.donut2-5:hover {
+  transform: scale(1.1);
+}
+
+/******* skill (donut 2-4) *******/
+
+.donut2-6 {
+  width: 10%;
+  padding-bottom: 9.8%;
+  /* height: 7vw; */
+  /* width: calc(13% - 30px);
+  padding-bottom: calc(12% - 16px); */
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  transition: background .3s ease-in-out;
+  background: conic-gradient(#3F8BC9 0% 70%, #F2F2F2 70% 100%);
+  content: attr(data-content)'%';
+}
+
+.donut2-6::before {
+  color: #fff;
+  width: 65%;
+  background: #264057;
+  border-radius: 50%;
+  position: absolute;
+  left: 16.5%;
+  top: 17.5%;
+  display: block;
+  content: attr(data-percent)'%';
+  transform: skew(-0.03deg);
+  margin: auto;
+  font-size: 1.3vw;
+  padding: calc(38% - 1.3vw) 0;
+}
+
+.git {
+  position: absolute;
+  top: 200px;
+  right: 58px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555353;
+}
+
+.donut2-6:hover {
   transform: scale(1.1);
 }
 
@@ -925,9 +1018,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.ps {
+.premiere {
   position: absolute;
-  left: 32px;
+  left: 20px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -971,9 +1064,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.ai {
+.after {
   position: absolute;
-  left: 40px;
+  left: 29px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -1017,9 +1110,9 @@ section {
   padding: calc(38% - 1.3vw) 0;
 }
 
-.fi {
+.obs {
   position: absolute;
-  right: 65px;
+  right: 42px;
   top: 200px;
   font-size: 20px;
   font-weight: 600;
@@ -1032,13 +1125,10 @@ section {
 
 /******* skill (donut 3-4) *******/
 
-.donut3-4 {
+/* .donut3-4 {
   width: 10%;
   padding-bottom: 9.8%;
-  /* height: 7vw; */
-  /* width: calc(13% - 30px);
-  padding-bottom: calc(12% - 16px); */
-  /* margin: 0 auto; */
+ 
   border-radius: 50%;
   position: relative;
   text-align: center;
@@ -1074,7 +1164,7 @@ section {
 
 .donut3-4:hover {
   transform: scale(1.1);
-}
+} */
 
 
 /*********************** section 3 (web) ************************/
