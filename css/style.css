@@ -216,7 +216,8 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
-  background: repeating-linear-gradient(45deg, #cae7f3, #609de8);
+  /* background: repeating-linear-gradient(45deg, #cae7f3, #609de8); */
+  background: repeating-linear-gradient(17deg, #cae7f3, #0b1671);
 }
 
 .about-box {
@@ -412,7 +413,7 @@ section {
 }
 
 .design-title {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .design-title h3 {
@@ -1267,6 +1268,16 @@ section {
   width: 1350px;
   height: 600px;
   /* background: #333; */
+}
+
+/*********************** section 3 (design) ************************/
+
+#design {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
 }
 
 
