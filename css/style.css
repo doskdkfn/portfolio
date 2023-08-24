@@ -520,7 +520,7 @@ section {
 .donut-design {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 /******* skill (donut 1-1) *******/
@@ -741,7 +741,7 @@ section {
 .donut-web {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 /******* skill (donut 2-1) *******/
