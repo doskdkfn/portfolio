@@ -266,19 +266,57 @@ section {
   margin: 0 auto;
 }
 
+/*********************** section 1 (about-background-effect) ************************/
+
 /* .stars {
   position: relative;
-}
+} */
 
-.star {
+.light-star {
   position: absolute;
   left: 50%;
   top: 50%;
   height: 2px;
-  background: linear-gradient(-45deg, rgb(95, 145, 255), rgba(0, 0, 255, 0));
+  /* background: linear-gradient(-45deg, rgb(95, 145, 255), rgba(0, 0, 255, 0)); */
   border-radius: 999px;
   filter: drop-shadow(0 0 6px rgb(105, 155, 255));
-} */
+}
+
+.light-star::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  height: 2px;
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgb(95, 145, 255), rgba(0, 0, 255, 0));
+  transform: translateX(50%) rotateZ(45deg);
+  border-radius: 100%;
+  animation: shining 3000ms ease-in-out infinite;
+}
+.light-star::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  height: 2px;
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgb(95, 145, 255), rgba(0, 0, 255, 0));
+  transform: translateX(50%) rotateZ(45deg);
+  border-radius: 100%;
+  animation: shining 3000ms ease-in-out infinite;
+  transform: translateX(50%) rotateZ(-45deg);
+}
+
+.light-star:nth-child(1) {
+  top: 110px;
+  left: 160px;
+  animation-delay: 9941ms;
+}
+
+.light-star:nth-child(2) {
+  top: 140px;
+  left: 435px;
+  animation-delay: 9941ms;
+}
 
 /************** section 1 (about-left) ***************/
 
