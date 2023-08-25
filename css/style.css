@@ -254,7 +254,7 @@ section {
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
-  background: radial-gradient(ellipse at top, #0e499d 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #0d3d82 0%, #090a0f 100%);
   /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
   /* background: repeating-linear-gradient(45deg, #cae7f3, #609de8); */
   /* background: repeating-linear-gradient(17deg, #cae7f3, #0b1671); */
@@ -265,6 +265,20 @@ section {
   width: 1920px;
   margin: 0 auto;
 }
+
+/* .stars {
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 2px;
+  background: linear-gradient(-45deg, rgb(95, 145, 255), rgba(0, 0, 255, 0));
+  border-radius: 999px;
+  filter: drop-shadow(0 0 6px rgb(105, 155, 255));
+} */
 
 /************** section 1 (about-left) ***************/
 
