@@ -312,10 +312,18 @@ section {
   animation-delay: 9941ms;
 }
 
+.light-star:nth-child(1)::before, .light-star:nth-child(1)::after {
+  animation-delay: 9941ms;
+}
+
 .light-star:nth-child(2) {
   top: 140px;
   left: 435px;
-  animation-delay: 9941ms;
+  animation-delay: 9841ms;
+}
+
+.light-star:nth-child(2)::before, .light-star:nth-child(2)::after {
+  animation-delay: 9841ms;
 }
 
 /************** section 1 (about-left) ***************/
