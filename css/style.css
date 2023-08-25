@@ -306,24 +306,76 @@ section {
   transform: translateX(50%) rotateZ(-45deg);
 }
 
+/* light-star:nth-child 1 */
+
 .light-star:nth-child(1) {
   top: 110px;
   left: 160px;
-  animation-delay: 9941ms;
+  animation-delay: 2800ms;
 }
 
 .light-star:nth-child(1)::before, .light-star:nth-child(1)::after {
-  animation-delay: 9941ms;
+  animation-delay: 3641ms;
 }
+
+/* light-star:nth-child 2 */
 
 .light-star:nth-child(2) {
   top: 140px;
   left: 435px;
-  animation-delay: 9841ms;
+  animation-delay: 3541ms;
 }
 
 .light-star:nth-child(2)::before, .light-star:nth-child(2)::after {
-  animation-delay: 9841ms;
+  animation-delay: 3841ms;
+}
+
+/* light-star:nth-child 3 */
+
+.light-star:nth-child(3) {
+  top: 400px;
+  left: 200px;
+  animation-delay: 4500ms;
+}
+
+.light-star:nth-child(3)::before, .light-star:nth-child(3)::after {
+  animation-delay: 4741ms;
+}
+
+/* light-star:nth-child 4 */
+
+.light-star:nth-child(4) {
+  top: 540px;
+  left: 485px;
+  animation-delay: 5500ms;
+}
+
+.light-star:nth-child(4)::before, .light-star:nth-child(4)::after {
+  animation-delay: 5741ms;
+}
+
+/* light-star:nth-child 5 */
+
+.light-star:nth-child(5) {
+  top: 400px;
+  left: 830px;
+  animation-delay: 6500ms;
+}
+
+.light-star:nth-child(5)::before, .light-star:nth-child(5)::after {
+  animation-delay: 6741ms;
+}
+
+/* light-star:nth-child 6 */
+
+.light-star:nth-child(6) {
+  top: 180px;
+  left: 1080px;
+  animation-delay: 6800ms;
+}
+
+.light-star:nth-child(6)::before, .light-star:nth-child(6)::after {
+  animation-delay: 7500ms;
 }
 
 /************** section 1 (about-left) ***************/
