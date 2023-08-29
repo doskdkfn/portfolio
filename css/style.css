@@ -391,6 +391,78 @@ section {
   animation-delay: 8500ms;
 }
 
+/* light-star:nth-child 8 */
+
+.light-star:nth-child(8) {
+  top: 650px;
+  left: 1070px;
+  animation-delay: 3000ms;
+}
+
+.light-star:nth-child(8)::before, .light-star:nth-child(8)::after {
+  animation-delay: 3500ms;
+}
+
+/* light-star:nth-child 9 */
+
+.light-star:nth-child(9) {
+  top: 870px;
+  left: 175px;
+  animation-delay: 3000ms;
+}
+
+.light-star:nth-child(9)::before, .light-star:nth-child(9)::after {
+  animation-delay: 3500ms;
+}
+
+/* light-star:nth-child 10 */
+
+.light-star:nth-child(10) {
+  top: 1200px;
+  left: 575px;
+  animation-delay: 4000ms;
+}
+
+.light-star:nth-child(10)::before, .light-star:nth-child(10)::after {
+  animation-delay: 4500ms;
+}
+
+/* light-star:nth-child 11 */
+
+.light-star:nth-child(11) {
+  top: 910px;
+  left: 1330px;
+  animation-delay: 2000ms;
+}
+
+.light-star:nth-child(11)::before, .light-star:nth-child(11)::after {
+  animation-delay: 2500ms;
+}
+
+/* light-star:nth-child 12 */
+
+.light-star:nth-child(12) {
+  top: 70px;
+  left: 1670px;
+  animation-delay: 8000ms;
+}
+
+.light-star:nth-child(12)::before, .light-star:nth-child(12)::after {
+  animation-delay: 8500ms;
+}
+
+/* light-star:nth-child 13 */
+
+.light-star:nth-child(13) {
+  top: 775px;
+  left: 1670px;
+  animation-delay: 4000ms;
+}
+
+.light-star:nth-child(13)::before, .light-star:nth-child(13)::after {
+  animation-delay: 4500ms;
+}
+
 /************** section 1 (about-left) ***************/
 
 .left-about {
