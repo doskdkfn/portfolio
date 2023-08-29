@@ -1576,7 +1576,7 @@ section {
 }
 
 #web-box {
-  width: 1800px;
+  width: 2000px;
   margin: 0 auto;
   position: relative;
 }
@@ -1590,6 +1590,35 @@ section {
   margin-bottom: 155px;
 }
 
+#slide-box {
+  width: 1800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#web-slide {
+  width: 1800px;
+  height: 600px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.back {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.next {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
 /******* section 3 web-flex - left & right *******/
 
 /******* web-flex (left) *******/
@@ -1597,6 +1626,7 @@ section {
 .web-flex {
   display: flex;
   align-items: flex-end;
+  position: absolute;
 }
 
 .web-left {
