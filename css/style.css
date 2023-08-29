@@ -463,6 +463,66 @@ section {
   animation-delay: 4500ms;
 }
 
+/* light-star:nth-child 14 */
+
+.light-star:nth-child(14) {
+  top: 1215px;
+  left: 1670px;
+  animation-delay: 6000ms;
+}
+
+.light-star:nth-child(14)::before, .light-star:nth-child(14)::after {
+  animation-delay: 6500ms;
+}
+
+/* light-star:nth-child 15 */
+
+.light-star:nth-child(15) {
+  top: 920px;
+  left: 1980px;
+  animation-delay: 3000ms;
+}
+
+.light-star:nth-child(15)::before, .light-star:nth-child(15)::after {
+  animation-delay: 3500ms;
+}
+
+/* light-star:nth-child 16 */
+
+.light-star:nth-child(16) {
+  top: 160px;
+  left: 2190px;
+  animation-delay: 7000ms;
+}
+
+.light-star:nth-child(16)::before, .light-star:nth-child(16)::after {
+  animation-delay: 7500ms;
+}
+
+/* light-star:nth-child 17 */
+
+.light-star:nth-child(17) {
+  top: 490px;
+  left: 2380px;
+  animation-delay: 4000ms;
+}
+
+.light-star:nth-child(17)::before, .light-star:nth-child(17)::after {
+  animation-delay: 4500ms;
+}
+
+/* light-star:nth-child 18 */
+
+.light-star:nth-child(18) {
+  top: 1110px;
+  left: 2450px;
+  animation-delay: 4000ms;
+}
+
+.light-star:nth-child(18)::before, .light-star:nth-child(18)::after {
+  animation-delay: 4500ms;
+}
+
 /************** section 1 (about-left) ***************/
 
 .left-about {
