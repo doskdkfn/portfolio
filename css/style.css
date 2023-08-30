@@ -1605,18 +1605,20 @@ section {
 
 .back {
   position: absolute;
-  top: 250px;
+  top: 790px;
   left: 0;
   cursor: pointer;
   z-index: 1;
+  font-size: 50px;
 }
 
 .next {
   position: absolute;
-  top: 250px;
+  top: 790px;
   right: 0;
   cursor: pointer;
   z-index: 1;
+  font-size: 50px;
 }
 
 /******* section 3 web-flex - left & right *******/
@@ -1626,7 +1628,7 @@ section {
 .web-flex {
   display: flex;
   align-items: flex-end;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .web-left {

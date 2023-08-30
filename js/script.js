@@ -16,13 +16,13 @@ $(document).ready(function () {
   var imgs;
   var img_count;
   var img_position = 1;
-  imgs = $(".slide ul");
+  imgs = $(".web-flex");
   img_count = imgs.children().length;
   //버튼을 클릭했을 때 함수 실행
-  $('#back').click(function() {
+  $('.back').click(function() {
       back();
   });
-  $('#next').click(function() {
+  $('.next').click(function() {
       next();
   });
 
