@@ -1600,7 +1600,7 @@ section {
   width: 1800px;
   height: 600px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .back {
