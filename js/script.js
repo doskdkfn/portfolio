@@ -16,7 +16,7 @@ $(document).ready(function () {
   var imgs;
   var img_count;
   var img_position = 1;
-  imgs = $(".web-flex");
+  imgs = $("#web-slide ul");
   img_count = imgs.children().length;
   //버튼을 클릭했을 때 함수 실행
   $('.back').click(function() {
@@ -29,7 +29,7 @@ $(document).ready(function () {
   function back() {
       if (1 < img_position) {
           imgs.animate({
-              left: '+=1000px'
+              left: '+=1800px'
           });
           img_position--;
       }
@@ -38,7 +38,7 @@ $(document).ready(function () {
   function next() {
       if (img_count > img_position) {
           imgs.animate({
-              left: '-=1000px'
+              left: '-=1800px'
           });
           img_position++;
       }
