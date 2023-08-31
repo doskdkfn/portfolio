@@ -1572,7 +1572,9 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
-  background: repeating-linear-gradient(45deg, #cae7f3, #c4d4e8);
+  background: repeating-linear-gradient(1deg, #2462bd 0%, #1f2027 100%);
+  /* background: repeating-linear-gradient(1deg, #27508c 0%, #1f2027 100%); */
+  /* background: repeating-linear-gradient(45deg, #cae7f3, #c4d4e8); */
 }
 
 #web-box {
