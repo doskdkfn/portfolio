@@ -1601,13 +1601,18 @@ section {
   width: 1800px;
   height: 600px;
   position: relative;
-  /* overflow: hidden; */
+  margin: 0 auto;
+  overflow: hidden;
   /* display: flex; */
 }
 
 #web-slide ul {
   position: absolute;
-  width: 5412px;
+  width: 9000px;
+  top: 0;
+  left: 0;
+  font-size: 0;
+  /* width: 5412px; */
 }
 
 #web-slide ul li {
