@@ -1585,11 +1585,12 @@ section {
 
 #web-box  h3 { 
   font-size: 35px;
-  padding-left: 10px;
+  padding-left: 90px;
   /* padding-left: 175px; */
   padding-top: 230px;
   text-transform: uppercase;
   margin-bottom: 155px;
+  color: #fff;
 }
 
 #slide-box {
@@ -1628,6 +1629,7 @@ section {
   cursor: pointer;
   z-index: 1;
   font-size: 50px;
+  color: #fff;
 }
 
 .next {
@@ -1637,6 +1639,7 @@ section {
   cursor: pointer;
   z-index: 1;
   font-size: 50px;
+  color: #fff;
 }
 
 /******* section 3 web-flex - left & right *******/
