@@ -1659,9 +1659,9 @@ section {
 }
 
 .web-info {
-  width: 480px;
+  width: 500px;
   height: 310px;
-  padding: 25px 50px;
+  padding: 25px 40px;
 }
 
 .web-info > h4 {
