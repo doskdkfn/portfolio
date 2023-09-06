@@ -44,6 +44,11 @@ html {
 }
 
 @font-face {
+  src: url("../font/hy헤드라인m.ttf");
+  font-family: "hy헤드라인";
+}
+
+@font-face {
   src: url("../font/DXPOPi-KSCpc-EUC-H.ttf");
   font-family: "DXPOPi";
 }
