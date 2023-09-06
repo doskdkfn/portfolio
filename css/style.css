@@ -33,6 +33,11 @@ html {
   font-family: "윤고딕340";
 }
 
+@font-face {
+  src: url("../font/DXPOPi-KSCpc-EUC-H.ttf");
+  font-family: "DXPOPi";
+}
+
 header {
   overflow-x: hidden;
   overflow-y: auto;
@@ -1668,6 +1673,7 @@ section {
   font-size: 30px;
   margin-bottom: 18px;
   text-transform: uppercase;
+  font-family: "DXPOPi";
 }
 
 .web-info > p {
