@@ -265,7 +265,7 @@ section {
 .big-title {
   color: #fff;
   font-size: 110px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   margin: 0;
   font-family: "starjedi";
 }
