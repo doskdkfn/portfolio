@@ -34,14 +34,24 @@ html {
 }
 
 @font-face {
+  src: url("../font/NanumGothic.ttf");
+  font-family: "NanumGothic";
+}
+
+@font-face {
+  src: url("../font/NanumSquare_acB.ttf");
+  font-family: "NanumSquare";
+}
+
+@font-face {
   src: url("../font/DXPOPi-KSCpc-EUC-H.ttf");
   font-family: "DXPOPi";
 }
 
-@font-face {
-  src: url("../font/Terano\ Bold.ttf");
-  font-family: "Terano";
-}
+/* @font-face {
+  src: url("../font/SF\ TransRobotics\ Bold.ttf");
+  font-family: "starjedi";
+} */
 
 header {
   overflow-x: hidden;
@@ -250,9 +260,9 @@ section {
 .big-title {
   color: #fff;
   font-size: 110px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0;
-  font-family: "Terano";
+  font-family: "starjedi";
 }
 
 /****************************************************** section 1 (about) **************************************************/
@@ -1676,7 +1686,7 @@ section {
 }
 
 .web-info > h4 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 18px;
   text-transform: uppercase;
   font-family: "DXPOPi";
@@ -1684,14 +1694,15 @@ section {
 
 .web-info > p {
   font-size: 20px;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
+  line-height: 1.5;
+  font-family: "NanumGothic";
 }
 
 .hashtag {
   font-size: 20px;
   color: #0d3d82;
   font-weight: bold;
-  margin-top: 30px;
 }
 
 .view-btn {
@@ -1712,7 +1723,7 @@ section {
   font-size: 15px;
   background-color: #222;
   padding: 20px 90px;
-  margin: 0 auto;
+  margin: 15px auto;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
