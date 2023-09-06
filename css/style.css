@@ -38,6 +38,11 @@ html {
   font-family: "DXPOPi";
 }
 
+@font-face {
+  src: url("../font/Terano\ Bold.ttf");
+  font-family: "Terano";
+}
+
 header {
   overflow-x: hidden;
   overflow-y: auto;
@@ -247,6 +252,7 @@ section {
   font-size: 110px;
   text-transform: uppercase;
   margin: 0;
+  font-family: "Terano";
 }
 
 /****************************************************** section 1 (about) **************************************************/
