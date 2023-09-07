@@ -43,6 +43,8 @@ $(document).ready(function () {
           img_position++;
       }
   }
+  //작은 이미지 클릭 시 큰 이미지 띄우기
+  
 });
 
 /////////  마우스 스크롤 시 한 섹션씩 넘어감
