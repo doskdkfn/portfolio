@@ -1819,6 +1819,7 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
+  background: repeating-linear-gradient(1deg, #2462bd 0%, #1f2027 100%);
 }
 
 
