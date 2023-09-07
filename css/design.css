@@ -8,6 +8,18 @@ body {
   overflow: hidden;
 } */
 
+#big-card {
+    display: flex;
+    justify-content: center;
+    margin: 140px auto;
+    display: none;
+}
+
+#big-card > img {
+    width: 750px;
+    height: 700px;
+}
+
 .cards {
   bottom: 0;
   display: flex;
