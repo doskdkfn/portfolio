@@ -1823,7 +1823,8 @@ section {
 }
 
 #design-box {
-
+  width: 1000px;
+  height: 800px;
 }
 
 /* .design-flex {} */
