@@ -44,7 +44,7 @@ $(document).ready(function () {
       }
   }
   //작은 이미지 클릭 시 큰 이미지 띄우기
-  $('.mini-card>img').click(function () {
+  $('.mini-card').click(function () {
     $('#big-card>img').fadeIn();
   });
 });

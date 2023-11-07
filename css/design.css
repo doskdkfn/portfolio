@@ -13,6 +13,8 @@ body {
     justify-content: center;
     margin: 140px auto;
     display: none;
+    position: absolute;
+    bottom: 80%;
 }
 
 #big-card > img {
@@ -24,10 +26,8 @@ body {
   bottom: 0;
   display: flex;
   height: 270px;
-  /* height: 150px; */
   padding: 0 50px;
   justify-content: center;
-  /* position: fixed; */
   position: absolute;
   left: 0;
   right: 0;
