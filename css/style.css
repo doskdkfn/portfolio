@@ -1811,7 +1811,7 @@ section {
   100% { transform: translateY(15px); opacity: 0;}
 }
 
-/*********************** section 4 (design) ************************/
+/************************************************ section 4 (design) ******************************************************/
 
 #design {
   width: 100%;
@@ -1821,6 +1821,25 @@ section {
   position: relative;
   background: repeating-linear-gradient(1deg, #2462bd 0%, #1f2027 100%);
 }
+
+#design-box {
+
+}
+
+/* .design-flex {} */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
