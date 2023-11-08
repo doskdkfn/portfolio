@@ -1824,13 +1824,15 @@ section {
 
 /* #design-box {} */
 
-/* .design-flex {} */
+.design-flex {
+  display: flex;
+}
 
 .design-f-sub {
-  width: 1000px;
-  height: 800px;
+  width: 700px;
+  height: 900px;
   background: #333;
-  margin: 0 auto;
+  margin: 190px auto;
 }
 
 
