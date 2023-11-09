@@ -1832,11 +1832,23 @@ section {
   align-items: flex-end;
 }
 
-.design-f-sub {
-  width: 25%;
+.design-box-sub {
+  display: flex;
+  width: 600px;
   height: 800px;
   background: #333;
+}
+
+.design-f-sub {
+  width: 600px;
+  height: 800px;
+  background: #32558a;
+ 
   /* margin: 190px auto; */
+}
+
+.design-f-sub > li {
+  background: #ccc;
 }
 
 
