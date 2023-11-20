@@ -83,11 +83,3 @@ $(window).on("wheel", function(e) {
 //   `conic-gradient(#4F98FF 0 ${totalMinwon}%, #f44336 ${totalMinwon}% ${totalMinwon + resolveMinwon}%, #dedede ${totalMinwon + resolveMinwon}% 100%)`
 //   t5++ >= totalMinwon + resolveMinwon && clearInterval(donutAnimation2)
 // }, 10)
-// let t5 = 0
-// const donutAnimation2 = setInterval(() => {
-//   donut2.dataset.percent = t5
-//   donut2.style.background = totalMinwon > t5 ? `conic-gradient(#4F98FF 0 ${t3}%, #dedede ${t3}% 100% )` : 
-//   totalMinwon + resolveMinwon > t5 ? `conic-gradient(#4F98FF 0 ${totalMinwon}%, #f44336 ${totalMinwon}% ${t3}%, #dedede ${t3}% 100%)` : 
-//   `conic-gradient(#4F98FF 0 ${totalMinwon}%, #f44336 ${totalMinwon}% ${totalMinwon + resolveMinwon}%, #dedede ${totalMinwon + resolveMinwon}% 100%)`
-//   t5++ >= totalMinwon + resolveMinwon && clearInterval(donutAnimation2)
-// }, 10)
