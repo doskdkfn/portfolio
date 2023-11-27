@@ -83,3 +83,4 @@ $(window).on("wheel", function(e) {
 //   `conic-gradient(#4F98FF 0 ${totalMinwon}%, #f44336 ${totalMinwon}% ${totalMinwon + resolveMinwon}%, #dedede ${totalMinwon + resolveMinwon}% 100%)`
 //   t5++ >= totalMinwon + resolveMinwon && clearInterval(donutAnimation2)
 // }, 10)
+
